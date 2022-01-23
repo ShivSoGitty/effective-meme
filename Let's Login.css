@@ -1,0 +1,36 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  .intro{
+      left: 0;
+    background-color: #5500ff;
+  }
+  .login{
+      right: 0;
+      background-color:  yellowgreen;
+  }
+  img{
+      border-radius: 50%;
+      border: 2.5px solid black;
+  }
+  button{
+      background-color: #00ced1;
+      width: 250px;
+      font-family: Arial, Helvetica, sans-serif;
+      border: 2.25px solid blue;
+  }
+  h4{
+      padding-top: 50px;
+      color: yellow;
+  }
+  label{
+      color: #5500ff;
+  }
+  

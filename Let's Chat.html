@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="Let's Chat.css">
+<script src="Let's Chat.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()"> Logout</button>
+        <center>
+            <h1 class="header">
+                Let's Chat <sup>
+                    <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-chat-online-learning-kiranshastry-gradient-kiranshastry-1.png"/>
+                </sup>
+            </h1>
+            <h3 id="usernamedisplay"></h3>
+            <div class="form-group input_div_room_page">
+                <label>Add Server:</label>
+                <input type="text" id="servername" class="form-control" placeholder="What is your Server going to be called?">
+            </div>
+<button onclick="addServer()" class="btn btn-success">Add Server</button>
+<h3 class="all">All Servers</h3>
+
+
+<div id="output"></div>
+        </center>
+    </div>
+</body>
+</html>
